@@ -67,18 +67,13 @@
   --notion-header-height: 45px;
 }
 
-@font-face {
-  font-family: 'HY';
-  src: url('https://cdn1.tianli0.top/npm/satotang@0.0.1/HY.woff2') format('truetype');
-  font-display: swap;
-}
 
 .notion {
   font-size: 17px;
   line-height: 1.5;
   color: var(--fg-color);
   caret-color: var(--fg-color);
-  font-family: Consolas, 'HY', Arial, sans-serif;
+  font-family: Consolas, STZhongsong, Arial, sans-serif;
 }
 
 .notion > * {
